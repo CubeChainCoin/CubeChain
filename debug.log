@@ -1,0 +1,822 @@
+2024-10-04 18:44:10 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-10-04 18:44:10 MultiChain version build 1.0.9 protocol 10012 (Dec  3 2018, 16:08:41)
+2024-10-04 18:44:10 Using OpenSSL version OpenSSL 1.0.1h 5 Jun 2014
+2024-10-04 18:44:10 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2024-10-04 18:44:10 Default data directory /home/ubuntu/.multichain/cubecoin
+2024-10-04 18:44:10 Using data directory /home/ubuntu/.multichain/cubecoin
+2024-10-04 18:44:10 Using config file /home/ubuntu/.multichain/cubecoin/cubecoin.conf
+2024-10-04 18:44:10 Using at most 125 connections (1024 file descriptors available)
+2024-10-04 18:44:10 Using 4 threads for script verification
+2024-10-04 18:44:10 Using wallet wallet.dat
+2024-10-04 18:44:10 init message: Verifying wallet...
+2024-10-04 18:44:10 CDBEnv::Open : LogDir=/home/ubuntu/.multichain/cubecoin/database ErrorFile=/home/ubuntu/.multichain/cubecoin/db.log
+2024-10-04 18:44:10 init message: Initializing multichain...
+2024-10-04 18:44:10 nFileVersion = 100000
+2024-10-04 18:44:10 Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+2024-10-04 18:44:10 mchn: Default key is not found - creating new... 
+2024-10-04 18:44:10 keypool added key 1, size=1
+2024-10-04 18:44:10 keypool added key 2, size=2
+2024-10-04 18:44:10 mchn: Parameter set is new, THIS IS GENESIS NODE - looking for genesis block...
+2024-10-04 18:44:10 mchn: Genesis block found
+2024-10-04 18:44:10 mchn: Parameter set is valid - initializing blockchain parameters...
+2024-10-04 18:44:10 Wallet mode: 00000003
+2024-10-04 18:44:10 Node paused state is set to 00000000
+2024-10-04 18:44:10 Binding RPC on address ::1 port 9560 (IPv4+IPv6 bind any: 0)
+2024-10-04 18:44:10 Binding RPC on address 127.0.0.1 port 9560 (IPv4+IPv6 bind any: 0)
+2024-10-04 18:44:10 Bound to [::]:9561
+2024-10-04 18:44:10 Bound to 0.0.0.0:9561
+2024-10-04 18:44:10 Setting banned transaction list:    0 transactions
+2024-10-04 18:44:10 init message: Loading block index...
+2024-10-04 18:44:10 Opening LevelDB in /home/ubuntu/.multichain/cubecoin/blocks/index
+2024-10-04 18:44:10 Opened LevelDB successfully
+2024-10-04 18:44:10 Opening LevelDB in /home/ubuntu/.multichain/cubecoin/chainstate
+2024-10-04 18:44:10 Opened LevelDB successfully
+2024-10-04 18:44:10 nFileVersion = 100000
+2024-10-04 18:44:10 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2024-10-04 18:44:10 LoadBlockIndexDB: last block file = 0
+2024-10-04 18:44:10 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2024-10-04 18:44:10 Checking all blk files are present...
+2024-10-04 18:44:10 LoadBlockIndexDB(): transaction index disabled
+2024-10-04 18:44:10 Initializing databases...
+2024-10-04 18:44:10 Pre-allocating up to position 0x1000000 in blk00000.dat
+2024-10-04 18:44:10 New stream. TxID: a56615117e9119d57110216eb1bb63ec70198332e532884c48edf8e3819a27bf, StreamRef: 0-81-10175, Name: root
+2024-10-04 18:44:10 UpdateTip:            new best=00f7d2125cb455d33239458d87a9b20ed99b6ac19cefb80587ff33a241774fed  height=0  log2_work=8  tx=1  date=2024-10-04 18:44:10 progress=1.000000  cache=0
+2024-10-04 18:44:10 init message: Verifying blocks...
+2024-10-04 18:44:10  block index              75ms
+2024-10-04 18:44:10 MultiChain protocol version: 10012
+2024-10-04 18:44:10 init message: Loading wallet...
+2024-10-04 18:44:10 nFileVersion = 100000
+2024-10-04 18:44:10 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2024-10-04 18:44:10  wallet                    0ms
+2024-10-04 18:44:10 mapBlockIndex.size() = 1
+2024-10-04 18:44:10 nBestHeight = 0
+2024-10-04 18:44:10 setKeyPool.size() = 1
+2024-10-04 18:44:10 oldWallet.size() = 0
+2024-10-04 18:44:10 mapWallet.size() = 0
+2024-10-04 18:44:10 mapAddressBook.size() = 1
+2024-10-04 18:44:10 init message: Loading addresses...
+2024-10-04 18:44:10 ERROR: Read : Failed to open file /home/ubuntu/.multichain/cubecoin/peers.dat
+2024-10-04 18:44:10 Invalid or missing peers.dat; recreating
+2024-10-04 18:44:10 Loaded 0 addresses from peers.dat  0ms
+2024-10-04 18:44:10 AddLocal(172.31.16.59:9561,1)
+2024-10-04 18:44:10 Discover: IPv4 enX0: 172.31.16.59
+2024-10-04 18:44:10 AddLocal([fe80::42a:d7ff:feb4:f0ab]:9561,1)
+2024-10-04 18:44:10 Discover: IPv6 enX0: fe80::42a:d7ff:feb4:f0ab
+2024-10-04 18:44:10 dnsseed thread start
+2024-10-04 18:44:10 Loading addresses from DNS seeds (could take a while)
+2024-10-04 18:44:10 0 addresses found from DNS seeds
+2024-10-04 18:44:10 dnsseed thread exit
+2024-10-04 18:44:10 opencon thread start
+2024-10-04 18:44:10 net thread start
+2024-10-04 18:44:10 addcon thread start
+2024-10-04 18:44:10 msghand thread start
+2024-10-04 18:44:10 dumpaddr thread start
+2024-10-04 18:44:10 init message: Done loading
+2024-10-04 18:44:10 MultiChainMiner started
+2024-10-04 18:44:10 MultiChainMiner: Block Found - 005ca78134954b01b07a45e7b0c6bb873f0b6a66fa78a57405b079c3fe97cfa1, prev: 00f7d2125cb455d33239458d87a9b20ed99b6ac19cefb80587ff33a241774fed, height: 1, txs: 1
+2024-10-04 18:44:10 Node started
+2024-10-04 18:44:10 Pre-allocating up to position 0x100000 in rev00000.dat
+2024-10-04 18:44:10 UpdateTip:            new best=005ca78134954b01b07a45e7b0c6bb873f0b6a66fa78a57405b079c3fe97cfa1  height=1  log2_work=9  tx=2  date=2024-10-04 18:44:11 progress=1.000000  cache=0
+2024-10-04 18:44:11 MultiChainMiner: Block Found - 0031d44087c7572e454f31fee7471c00fb294e81624bc5c3517711899c570e43, prev: 005ca78134954b01b07a45e7b0c6bb873f0b6a66fa78a57405b079c3fe97cfa1, height: 2, txs: 1
+2024-10-04 18:44:11 UpdateTip:            new best=0031d44087c7572e454f31fee7471c00fb294e81624bc5c3517711899c570e43  height=2  log2_work=9.5849625  tx=3  date=2024-10-04 18:44:12 progress=1.000000  cache=0
+2024-10-04 18:44:30 MultiChainMiner: Block Found - 0045bdd2c84862d26aa5059b306d80da96e4e050df51f9ea733266a526417f2c, prev: 0031d44087c7572e454f31fee7471c00fb294e81624bc5c3517711899c570e43, height: 3, txs: 1
+2024-10-04 18:44:30 UpdateTip:            new best=0045bdd2c84862d26aa5059b306d80da96e4e050df51f9ea733266a526417f2c  height=3  log2_work=10  tx=4  date=2024-10-04 18:44:30 progress=1.000000  cache=0
+2024-10-04 18:44:46 MultiChainMiner: Block Found - 00b6774970afced18bb267e098b08c50b657b2d3b2fcfae61a178a10d1d28c0e, prev: 0045bdd2c84862d26aa5059b306d80da96e4e050df51f9ea733266a526417f2c, height: 4, txs: 1
+2024-10-04 18:44:46 UpdateTip:            new best=00b6774970afced18bb267e098b08c50b657b2d3b2fcfae61a178a10d1d28c0e  height=4  log2_work=10.321928  tx=5  date=2024-10-04 18:44:46 progress=1.000000  cache=0
+2024-10-04 18:44:56 MultiChainMiner: Block Found - 00433277443498efac5b93a91e1a6b0665437c3c5d01c81dd730cfec3acc05e3, prev: 00b6774970afced18bb267e098b08c50b657b2d3b2fcfae61a178a10d1d28c0e, height: 5, txs: 1
+2024-10-04 18:44:56 UpdateTip:            new best=00433277443498efac5b93a91e1a6b0665437c3c5d01c81dd730cfec3acc05e3  height=5  log2_work=10.584963  tx=6  date=2024-10-04 18:44:56 progress=1.000000  cache=0
+2024-10-04 18:45:07 MultiChainMiner: Block Found - 00f950bd713c8081546c5c5e82b37854c01968e52c70150303f58b38b63fe166, prev: 00433277443498efac5b93a91e1a6b0665437c3c5d01c81dd730cfec3acc05e3, height: 6, txs: 1
+2024-10-04 18:45:07 UpdateTip:            new best=00f950bd713c8081546c5c5e82b37854c01968e52c70150303f58b38b63fe166  height=6  log2_work=10.807355  tx=7  date=2024-10-04 18:45:07 progress=1.000000  cache=0
+2024-10-04 18:45:11 Adding fixed seed nodes as DNS doesn't seem to be available.
+2024-10-04 18:45:24 MultiChainMiner: Block Found - 000d0451117c6710ca3f46e2508e83ef62114edb0579c5bce5db80f6fc82c3df, prev: 00f950bd713c8081546c5c5e82b37854c01968e52c70150303f58b38b63fe166, height: 7, txs: 1
+2024-10-04 18:45:24 UpdateTip:            new best=000d0451117c6710ca3f46e2508e83ef62114edb0579c5bce5db80f6fc82c3df  height=7  log2_work=11  tx=8  date=2024-10-04 18:45:24 progress=1.000000  cache=0
+2024-10-04 18:45:33 MultiChainMiner: Block Found - 00b9003f6ef5f3ab3ea19ce6c48e9a225f74322c2fb6e83297a3250301047afc, prev: 000d0451117c6710ca3f46e2508e83ef62114edb0579c5bce5db80f6fc82c3df, height: 8, txs: 1
+2024-10-04 18:45:33 UpdateTip:            new best=00b9003f6ef5f3ab3ea19ce6c48e9a225f74322c2fb6e83297a3250301047afc  height=8  log2_work=11.169925  tx=9  date=2024-10-04 18:45:33 progress=1.000000  cache=0
+2024-10-04 18:45:42 MultiChainMiner: Block Found - 00fb689f16dccdeff9cc962f209c11d3a3fb497a752f838d7694ee58c78ef0cc, prev: 00b9003f6ef5f3ab3ea19ce6c48e9a225f74322c2fb6e83297a3250301047afc, height: 9, txs: 1
+2024-10-04 18:45:42 UpdateTip:            new best=00fb689f16dccdeff9cc962f209c11d3a3fb497a752f838d7694ee58c78ef0cc  height=9  log2_work=11.321928  tx=10  date=2024-10-04 18:45:42 progress=1.000000  cache=0
+2024-10-04 18:46:00 MultiChainMiner: Block Found - 0014a4adff2e8cedca9d9fc24ccc777719c8e24b51e4475034909d15df68d444, prev: 00fb689f16dccdeff9cc962f209c11d3a3fb497a752f838d7694ee58c78ef0cc, height: 10, txs: 1
+2024-10-04 18:46:00 UpdateTip:            new best=0014a4adff2e8cedca9d9fc24ccc777719c8e24b51e4475034909d15df68d444  height=10  log2_work=11.459432  tx=11  date=2024-10-04 18:46:00 progress=1.000000  cache=0
+2024-10-04 18:46:10 MultiChainMiner: Block Found - 00bfd7b95594fb74fcb3ae97e605671f8a52d49166d02c7dbc17cb7d14c1b397, prev: 0014a4adff2e8cedca9d9fc24ccc777719c8e24b51e4475034909d15df68d444, height: 11, txs: 1
+2024-10-04 18:46:10 UpdateTip:            new best=00bfd7b95594fb74fcb3ae97e605671f8a52d49166d02c7dbc17cb7d14c1b397  height=11  log2_work=11.584963  tx=12  date=2024-10-04 18:46:10 progress=1.000000  cache=0
+2024-10-04 18:46:21 dumpaddr thread stop
+2024-10-04 18:46:21 opencon thread interrupt
+2024-10-04 18:46:21 addcon thread interrupt
+2024-10-04 18:46:21 msghand thread interrupt
+2024-10-04 18:46:21 net thread interrupt
+2024-10-04 18:46:21 Shutdown: In progress...
+2024-10-04 18:46:22 MultiChainMiner terminated
+2024-10-04 18:46:22 StopNode()
+2024-10-04 18:46:22 Node stopped
+2024-10-04 18:46:22 Shutdown: done
+2024-10-04 18:46:23 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-10-04 18:46:23 MultiChain version build 1.0.9 protocol 10012 (Dec  3 2018, 16:08:41)
+2024-10-04 18:46:23 Using OpenSSL version OpenSSL 1.0.1h 5 Jun 2014
+2024-10-04 18:46:23 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2024-10-04 18:46:23 Default data directory /home/ubuntu/.multichain/cubecoin
+2024-10-04 18:46:23 Using data directory /home/ubuntu/.multichain/cubecoin
+2024-10-04 18:46:23 Using config file /home/ubuntu/.multichain/cubecoin/cubecoin.conf
+2024-10-04 18:46:23 Using at most 125 connections (1024 file descriptors available)
+2024-10-04 18:46:23 Using 4 threads for script verification
+2024-10-04 18:46:23 Using wallet wallet.dat
+2024-10-04 18:46:23 init message: Verifying wallet...
+2024-10-04 18:46:23 CDBEnv::Open : LogDir=/home/ubuntu/.multichain/cubecoin/database ErrorFile=/home/ubuntu/.multichain/cubecoin/db.log
+2024-10-04 18:46:23 init message: Initializing multichain...
+2024-10-04 18:46:23 mchn: Parameter set is valid - initializing blockchain parameters...
+2024-10-04 18:46:23 Wallet mode: 00000003
+2024-10-04 18:46:23 nFileVersion = 100000
+2024-10-04 18:46:23 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2024-10-04 18:46:23 Node paused state is set to 00000000
+2024-10-04 18:46:23 Binding RPC on address ::1 port 9560 (IPv4+IPv6 bind any: 0)
+2024-10-04 18:46:23 Binding RPC on address 127.0.0.1 port 9560 (IPv4+IPv6 bind any: 0)
+2024-10-04 18:46:23 Bound to [::]:9561
+2024-10-04 18:46:23 Bound to 0.0.0.0:9561
+2024-10-04 18:46:23 Setting banned transaction list:    0 transactions
+2024-10-04 18:46:23 init message: Loading block index...
+2024-10-04 18:46:23 Opening LevelDB in /home/ubuntu/.multichain/cubecoin/blocks/index
+2024-10-04 18:46:23 Opened LevelDB successfully
+2024-10-04 18:46:23 Opening LevelDB in /home/ubuntu/.multichain/cubecoin/chainstate
+2024-10-04 18:46:23 Opened LevelDB successfully
+2024-10-04 18:46:23 nFileVersion = 100000
+2024-10-04 18:46:23 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2024-10-04 18:46:23 LoadBlockIndexDB: last block file = 0
+2024-10-04 18:46:23 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=12, size=3271, heights=0...11, time=2024-10-04...2024-10-04)
+2024-10-04 18:46:23 Checking all blk files are present...
+2024-10-04 18:46:23 LoadBlockIndexDB(): transaction index enabled
+2024-10-04 18:46:23 LoadBlockIndexDB(): hashBestChain=00bfd7b95594fb74fcb3ae97e605671f8a52d49166d02c7dbc17cb7d14c1b397 height=11 date=2024-10-04 18:46:10 progress=1.000000
+2024-10-04 18:46:23 init message: Verifying blocks...
+2024-10-04 18:46:23 Verifying last 11 blocks at level 3
+2024-10-04 18:46:23 No coin database inconsistencies in last 11 blocks (11 transactions)
+2024-10-04 18:46:23  block index              37ms
+2024-10-04 18:46:23 MultiChain protocol version: 10012
+2024-10-04 18:46:23 init message: Loading wallet...
+2024-10-04 18:46:23 nFileVersion = 100000
+2024-10-04 18:46:23 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2024-10-04 18:46:23  wallet                    0ms
+2024-10-04 18:46:23 mapBlockIndex.size() = 12
+2024-10-04 18:46:23 nBestHeight = 11
+2024-10-04 18:46:23 setKeyPool.size() = 1
+2024-10-04 18:46:23 oldWallet.size() = 0
+2024-10-04 18:46:23 mapWallet.size() = 1
+2024-10-04 18:46:23 mapAddressBook.size() = 1
+2024-10-04 18:46:23 init message: Loading addresses...
+2024-10-04 18:46:23 Loaded 0 addresses from peers.dat  0ms
+2024-10-04 18:46:23 AddLocal(172.31.16.59:9561,1)
+2024-10-04 18:46:23 Discover: IPv4 enX0: 172.31.16.59
+2024-10-04 18:46:23 AddLocal([fe80::42a:d7ff:feb4:f0ab]:9561,1)
+2024-10-04 18:46:23 Discover: IPv6 enX0: fe80::42a:d7ff:feb4:f0ab
+2024-10-04 18:46:23 dnsseed thread start
+2024-10-04 18:46:23 Loading addresses from DNS seeds (could take a while)
+2024-10-04 18:46:23 0 addresses found from DNS seeds
+2024-10-04 18:46:23 dnsseed thread exit
+2024-10-04 18:46:23 addcon thread start
+2024-10-04 18:46:23 msghand thread start
+2024-10-04 18:46:23 dumpaddr thread start
+2024-10-04 18:46:23 opencon thread start
+2024-10-04 18:46:23 init message: Done loading
+2024-10-04 18:46:23 Seed node is set, trying to connect to 172.31.16.59:9561...
+2024-10-04 18:46:23 MultiChainMiner started
+2024-10-04 18:46:23 net thread start
+2024-10-04 18:46:23 Node started
+2024-10-04 18:46:23 connected to self at 172.31.16.59:51268, disconnecting
+2024-10-04 18:46:32 MultiChainMiner: Block Found - 0099a201055e71bb846e7926957e6576f58f46124b51e6e519a3834bdb393512, prev: 00bfd7b95594fb74fcb3ae97e605671f8a52d49166d02c7dbc17cb7d14c1b397, height: 12, txs: 1
+2024-10-04 18:46:32 UpdateTip:            new best=0099a201055e71bb846e7926957e6576f58f46124b51e6e519a3834bdb393512  height=12  log2_work=11.70044  tx=13  date=2024-10-04 18:46:32 progress=1.000000  cache=0
+2024-10-04 18:46:33 opencon thread interrupt
+2024-10-04 18:46:33 msghand thread interrupt
+2024-10-04 18:46:33 dumpaddr thread stop
+2024-10-04 18:46:33 addcon thread interrupt
+2024-10-04 18:46:33 net thread interrupt
+2024-10-04 18:46:33 Shutdown: In progress...
+2024-10-04 18:46:33 MultiChainMiner terminated
+2024-10-04 18:46:33 StopNode()
+2024-10-04 18:46:33 Node stopped
+2024-10-04 18:46:33 Shutdown: done
+2024-10-04 18:47:11 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-10-04 18:47:11 MultiChain version build 1.0.9 protocol 10012 (Dec  3 2018, 16:08:41)
+2024-10-04 18:47:11 Using OpenSSL version OpenSSL 1.0.1h 5 Jun 2014
+2024-10-04 18:47:11 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2024-10-04 18:47:11 Default data directory /home/ubuntu/.multichain/cubecoin
+2024-10-04 18:47:11 Using data directory /home/ubuntu/.multichain/cubecoin
+2024-10-04 18:47:11 Using config file /home/ubuntu/.multichain/cubecoin/cubecoin.conf
+2024-10-04 18:47:11 Using at most 125 connections (1024 file descriptors available)
+2024-10-04 18:47:11 Using 4 threads for script verification
+2024-10-04 18:47:11 Using wallet wallet.dat
+2024-10-04 18:47:11 init message: Verifying wallet...
+2024-10-04 18:47:11 CDBEnv::Open : LogDir=/home/ubuntu/.multichain/cubecoin/database ErrorFile=/home/ubuntu/.multichain/cubecoin/db.log
+2024-10-04 18:47:11 init message: Initializing multichain...
+2024-10-04 18:47:11 mchn: Parameter set is valid - initializing blockchain parameters...
+2024-10-04 18:47:11 Wallet mode: 00000003
+2024-10-04 18:47:11 nFileVersion = 100000
+2024-10-04 18:47:11 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2024-10-04 18:47:11 Node paused state is set to 00000000
+2024-10-04 18:47:11 Binding RPC on address ::1 port 9560 (IPv4+IPv6 bind any: 0)
+2024-10-04 18:47:11 Binding RPC on address 127.0.0.1 port 9560 (IPv4+IPv6 bind any: 0)
+2024-10-04 18:47:11 Bound to [::]:9561
+2024-10-04 18:47:11 Bound to 0.0.0.0:9561
+2024-10-04 18:47:11 Setting banned transaction list:    0 transactions
+2024-10-04 18:47:11 init message: Loading block index...
+2024-10-04 18:47:11 Opening LevelDB in /home/ubuntu/.multichain/cubecoin/blocks/index
+2024-10-04 18:47:11 Opened LevelDB successfully
+2024-10-04 18:47:11 Opening LevelDB in /home/ubuntu/.multichain/cubecoin/chainstate
+2024-10-04 18:47:11 Opened LevelDB successfully
+2024-10-04 18:47:11 nFileVersion = 100000
+2024-10-04 18:47:11 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2024-10-04 18:47:11 LoadBlockIndexDB: last block file = 0
+2024-10-04 18:47:11 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=13, size=3543, heights=0...12, time=2024-10-04...2024-10-04)
+2024-10-04 18:47:11 Checking all blk files are present...
+2024-10-04 18:47:11 LoadBlockIndexDB(): transaction index enabled
+2024-10-04 18:47:11 LoadBlockIndexDB(): hashBestChain=0099a201055e71bb846e7926957e6576f58f46124b51e6e519a3834bdb393512 height=12 date=2024-10-04 18:46:32 progress=1.000000
+2024-10-04 18:47:11 init message: Verifying blocks...
+2024-10-04 18:47:11 Verifying last 12 blocks at level 3
+2024-10-04 18:47:11 No coin database inconsistencies in last 12 blocks (12 transactions)
+2024-10-04 18:47:11  block index              30ms
+2024-10-04 18:47:11 MultiChain protocol version: 10012
+2024-10-04 18:47:11 init message: Loading wallet...
+2024-10-04 18:47:11 nFileVersion = 100000
+2024-10-04 18:47:11 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2024-10-04 18:47:11  wallet                    0ms
+2024-10-04 18:47:11 mapBlockIndex.size() = 13
+2024-10-04 18:47:11 nBestHeight = 12
+2024-10-04 18:47:11 setKeyPool.size() = 1
+2024-10-04 18:47:11 oldWallet.size() = 0
+2024-10-04 18:47:11 mapWallet.size() = 1
+2024-10-04 18:47:11 mapAddressBook.size() = 1
+2024-10-04 18:47:11 init message: Loading addresses...
+2024-10-04 18:47:11 Loaded 0 addresses from peers.dat  0ms
+2024-10-04 18:47:11 AddLocal(172.31.16.59:9561,1)
+2024-10-04 18:47:11 Discover: IPv4 enX0: 172.31.16.59
+2024-10-04 18:47:11 AddLocal([fe80::42a:d7ff:feb4:f0ab]:9561,1)
+2024-10-04 18:47:11 Discover: IPv6 enX0: fe80::42a:d7ff:feb4:f0ab
+2024-10-04 18:47:11 dnsseed thread start
+2024-10-04 18:47:11 Loading addresses from DNS seeds (could take a while)
+2024-10-04 18:47:11 0 addresses found from DNS seeds
+2024-10-04 18:47:11 dnsseed thread exit
+2024-10-04 18:47:11 opencon thread start
+2024-10-04 18:47:11 Seed node is set, trying to connect to 172.31.16.59:9561...
+2024-10-04 18:47:11 net thread start
+2024-10-04 18:47:11 msghand thread start
+2024-10-04 18:47:11 addcon thread start
+2024-10-04 18:47:11 connected to self at 172.31.16.59:34732, disconnecting
+2024-10-04 18:47:11 dumpaddr thread start
+2024-10-04 18:47:11 init message: Done loading
+2024-10-04 18:47:11 MultiChainMiner started
+2024-10-04 18:47:11 Node started
+2024-10-04 18:47:24 MultiChainMiner: Block Found - 004be48dcd70ea3eb2b4037ac54916c18a81a3704e68ab889fda74021e626ee4, prev: 0099a201055e71bb846e7926957e6576f58f46124b51e6e519a3834bdb393512, height: 13, txs: 1
+2024-10-04 18:47:24 UpdateTip:            new best=004be48dcd70ea3eb2b4037ac54916c18a81a3704e68ab889fda74021e626ee4  height=13  log2_work=11.807355  tx=14  date=2024-10-04 18:47:24 progress=1.000000  cache=0
+2024-10-04 18:47:45 MultiChainMiner: Block Found - 00289071d886af481deaf87af6b7c518cadcf78a59ebc64d09e39397ddb0722d, prev: 004be48dcd70ea3eb2b4037ac54916c18a81a3704e68ab889fda74021e626ee4, height: 14, txs: 1
+2024-10-04 18:47:45 UpdateTip:            new best=00289071d886af481deaf87af6b7c518cadcf78a59ebc64d09e39397ddb0722d  height=14  log2_work=11.906891  tx=15  date=2024-10-04 18:47:45 progress=1.000000  cache=0
+2024-10-04 18:48:07 MultiChainMiner: Block Found - 00e43d4dd83eb08a1ad331386e1db63bcc54237edec76839e1ef143eb6d30b70, prev: 00289071d886af481deaf87af6b7c518cadcf78a59ebc64d09e39397ddb0722d, height: 15, txs: 1
+2024-10-04 18:48:07 UpdateTip:            new best=00e43d4dd83eb08a1ad331386e1db63bcc54237edec76839e1ef143eb6d30b70  height=15  log2_work=12  tx=16  date=2024-10-04 18:48:07 progress=1.000000  cache=0
+2024-10-04 18:48:12 Adding fixed seed nodes as DNS doesn't seem to be available.
+2024-10-04 18:48:29 MultiChainMiner: Block Found - 002d375e2bf80ea4984d5d2e003dab58c35140946b25212ca4d8941931a4cfa4, prev: 00e43d4dd83eb08a1ad331386e1db63bcc54237edec76839e1ef143eb6d30b70, height: 16, txs: 1
+2024-10-04 18:48:29 UpdateTip:            new best=002d375e2bf80ea4984d5d2e003dab58c35140946b25212ca4d8941931a4cfa4  height=16  log2_work=12.087463  tx=17  date=2024-10-04 18:48:29 progress=1.000000  cache=0
+2024-10-04 18:48:33 msghand thread interrupt
+2024-10-04 18:48:33 opencon thread interrupt
+2024-10-04 18:48:33 dumpaddr thread stop
+2024-10-04 18:48:33 addcon thread interrupt
+2024-10-04 18:48:33 net thread interrupt
+2024-10-04 18:48:33 Shutdown: In progress...
+2024-10-04 18:48:34 MultiChainMiner terminated
+2024-10-04 18:48:34 StopNode()
+2024-10-04 18:48:34 Node stopped
+2024-10-04 18:48:34 Shutdown: done
+2024-10-04 18:48:39 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-10-04 18:48:39 MultiChain version build 1.0.9 protocol 10012 (Dec  3 2018, 16:08:41)
+2024-10-04 18:48:39 Using OpenSSL version OpenSSL 1.0.1h 5 Jun 2014
+2024-10-04 18:48:39 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2024-10-04 18:48:39 Default data directory /home/ubuntu/.multichain/cubecoin
+2024-10-04 18:48:39 Using data directory /home/ubuntu/.multichain/cubecoin
+2024-10-04 18:48:39 Using config file /home/ubuntu/.multichain/cubecoin/cubecoin.conf
+2024-10-04 18:48:39 Using at most 125 connections (1024 file descriptors available)
+2024-10-04 18:48:39 Using 4 threads for script verification
+2024-10-04 18:48:39 Using wallet wallet.dat
+2024-10-04 18:48:39 init message: Verifying wallet...
+2024-10-04 18:48:39 CDBEnv::Open : LogDir=/home/ubuntu/.multichain/cubecoin/database ErrorFile=/home/ubuntu/.multichain/cubecoin/db.log
+2024-10-04 18:48:39 init message: Initializing multichain...
+2024-10-04 18:48:39 mchn: Parameter set is valid - initializing blockchain parameters...
+2024-10-04 18:48:39 Wallet mode: 00000003
+2024-10-04 18:48:39 nFileVersion = 100000
+2024-10-04 18:48:39 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2024-10-04 18:48:39 Node paused state is set to 00000000
+2024-10-04 18:48:39 Binding RPC on address ::1 port 9560 (IPv4+IPv6 bind any: 0)
+2024-10-04 18:48:39 Binding RPC on address 127.0.0.1 port 9560 (IPv4+IPv6 bind any: 0)
+2024-10-04 18:48:39 Bound to [::]:9561
+2024-10-04 18:48:39 Bound to 0.0.0.0:9561
+2024-10-04 18:48:39 Setting banned transaction list:    0 transactions
+2024-10-04 18:48:39 init message: Loading block index...
+2024-10-04 18:48:39 Opening LevelDB in /home/ubuntu/.multichain/cubecoin/blocks/index
+2024-10-04 18:48:39 Opened LevelDB successfully
+2024-10-04 18:48:39 Opening LevelDB in /home/ubuntu/.multichain/cubecoin/chainstate
+2024-10-04 18:48:39 Opened LevelDB successfully
+2024-10-04 18:48:39 nFileVersion = 100000
+2024-10-04 18:48:39 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2024-10-04 18:48:39 LoadBlockIndexDB: last block file = 0
+2024-10-04 18:48:39 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=17, size=4633, heights=0...16, time=2024-10-04...2024-10-04)
+2024-10-04 18:48:39 Checking all blk files are present...
+2024-10-04 18:48:39 LoadBlockIndexDB(): transaction index enabled
+2024-10-04 18:48:39 LoadBlockIndexDB(): hashBestChain=002d375e2bf80ea4984d5d2e003dab58c35140946b25212ca4d8941931a4cfa4 height=16 date=2024-10-04 18:48:29 progress=1.000000
+2024-10-04 18:48:39 init message: Verifying blocks...
+2024-10-04 18:48:39 Verifying last 16 blocks at level 3
+2024-10-04 18:48:39 No coin database inconsistencies in last 16 blocks (16 transactions)
+2024-10-04 18:48:39  block index              36ms
+2024-10-04 18:48:39 MultiChain protocol version: 10012
+2024-10-04 18:48:39 init message: Loading wallet...
+2024-10-04 18:48:39 nFileVersion = 100000
+2024-10-04 18:48:39 Keys: 2 plaintext, 0 encrypted, 2 w/ metadata, 2 total
+2024-10-04 18:48:39  wallet                    1ms
+2024-10-04 18:48:39 mapBlockIndex.size() = 17
+2024-10-04 18:48:39 nBestHeight = 16
+2024-10-04 18:48:39 setKeyPool.size() = 1
+2024-10-04 18:48:39 oldWallet.size() = 0
+2024-10-04 18:48:39 mapWallet.size() = 1
+2024-10-04 18:48:39 mapAddressBook.size() = 1
+2024-10-04 18:48:39 init message: Loading addresses...
+2024-10-04 18:48:39 Loaded 0 addresses from peers.dat  0ms
+2024-10-04 18:48:39 AddLocal(172.31.16.59:9561,1)
+2024-10-04 18:48:39 Discover: IPv4 enX0: 172.31.16.59
+2024-10-04 18:48:39 AddLocal([fe80::42a:d7ff:feb4:f0ab]:9561,1)
+2024-10-04 18:48:39 Discover: IPv6 enX0: fe80::42a:d7ff:feb4:f0ab
+2024-10-04 18:48:39 dnsseed thread start
+2024-10-04 18:48:39 Loading addresses from DNS seeds (could take a while)
+2024-10-04 18:48:39 0 addresses found from DNS seeds
+2024-10-04 18:48:39 dnsseed thread exit
+2024-10-04 18:48:39 opencon thread start
+2024-10-04 18:48:39 Seed node is set, trying to connect to 172.31.16.59:9561...
+2024-10-04 18:48:39 net thread start
+2024-10-04 18:48:39 msghand thread start
+2024-10-04 18:48:39 addcon thread start
+2024-10-04 18:48:39 init message: Done loading
+2024-10-04 18:48:39 MultiChainMiner started
+2024-10-04 18:48:39 dumpaddr thread start
+2024-10-04 18:48:39 Node started
+2024-10-04 18:48:39 connected to self at 172.31.16.59:56714, disconnecting
+2024-10-04 18:48:51 MultiChainMiner: Block Found - 008b536263c13b5aec503b74d90b85ae423ba502a9a8be97cdf83bd2a9c54702, prev: 002d375e2bf80ea4984d5d2e003dab58c35140946b25212ca4d8941931a4cfa4, height: 17, txs: 1
+2024-10-04 18:48:51 UpdateTip:            new best=008b536263c13b5aec503b74d90b85ae423ba502a9a8be97cdf83bd2a9c54702  height=17  log2_work=12.169925  tx=18  date=2024-10-04 18:48:51 progress=1.000000  cache=0
+2024-10-04 18:49:03 MultiChainMiner: Block Found - 009a34bd7bcde274f97205cbeea0686a775544a7868bc6d12fe40c13f198bfef, prev: 008b536263c13b5aec503b74d90b85ae423ba502a9a8be97cdf83bd2a9c54702, height: 18, txs: 1
+2024-10-04 18:49:03 UpdateTip:            new best=009a34bd7bcde274f97205cbeea0686a775544a7868bc6d12fe40c13f198bfef  height=18  log2_work=12.247928  tx=19  date=2024-10-04 18:49:03 progress=1.000000  cache=0
+2024-10-04 18:49:22 MultiChainMiner: Block Found - 00813c6d734dcd0dab6620064dbf6ff894678400abc4e8022b37a785c4a5a309, prev: 009a34bd7bcde274f97205cbeea0686a775544a7868bc6d12fe40c13f198bfef, height: 19, txs: 1
+2024-10-04 18:49:22 UpdateTip:            new best=00813c6d734dcd0dab6620064dbf6ff894678400abc4e8022b37a785c4a5a309  height=19  log2_work=12.321928  tx=20  date=2024-10-04 18:49:22 progress=1.000000  cache=0
+2024-10-04 18:49:31 MultiChainMiner: Block Found - 00acb1542ead23850ff89d2947e40748fc9a70b6b557f7e09824d9c27cca69af, prev: 00813c6d734dcd0dab6620064dbf6ff894678400abc4e8022b37a785c4a5a309, height: 20, txs: 1
+2024-10-04 18:49:31 UpdateTip:            new best=00acb1542ead23850ff89d2947e40748fc9a70b6b557f7e09824d9c27cca69af  height=20  log2_work=12.392317  tx=21  date=2024-10-04 18:49:31 progress=1.000000  cache=0
+2024-10-04 18:49:40 Adding fixed seed nodes as DNS doesn't seem to be available.
+2024-10-04 18:49:52 MultiChainMiner: Block Found - 00053dbe688dd02a4651cb5a1e650a59d9a5302b6335307941e6cceab5e5e4c8, prev: 00acb1542ead23850ff89d2947e40748fc9a70b6b557f7e09824d9c27cca69af, height: 21, txs: 1
+2024-10-04 18:49:52 UpdateTip:            new best=00053dbe688dd02a4651cb5a1e650a59d9a5302b6335307941e6cceab5e5e4c8  height=21  log2_work=12.459432  tx=22  date=2024-10-04 18:49:52 progress=1.000000  cache=0
+2024-10-04 18:50:01 MultiChainMiner: Block Found - 004fa49179af0506d7819f688ea22e1f5c7cd23715ba3c0ff6cf4be33523e28b, prev: 00053dbe688dd02a4651cb5a1e650a59d9a5302b6335307941e6cceab5e5e4c8, height: 22, txs: 1
+2024-10-04 18:50:01 UpdateTip:            new best=004fa49179af0506d7819f688ea22e1f5c7cd23715ba3c0ff6cf4be33523e28b  height=22  log2_work=12.523562  tx=23  date=2024-10-04 18:50:01 progress=1.000000  cache=0
+2024-10-04 18:50:20 MultiChainMiner: Block Found - 00393fa0e1a815cd9a3d7985bd3d78d67a007f6c222d6bb0f5521ec1eb3afa8a, prev: 004fa49179af0506d7819f688ea22e1f5c7cd23715ba3c0ff6cf4be33523e28b, height: 23, txs: 1
+2024-10-04 18:50:20 UpdateTip:            new best=00393fa0e1a815cd9a3d7985bd3d78d67a007f6c222d6bb0f5521ec1eb3afa8a  height=23  log2_work=12.584963  tx=24  date=2024-10-04 18:50:20 progress=1.000000  cache=0
+2024-10-04 18:50:35 MultiChainMiner: Block Found - 00be89a45e3e44e86b35a548c4b68c25560b18f058c082a74d707fdca07e3268, prev: 00393fa0e1a815cd9a3d7985bd3d78d67a007f6c222d6bb0f5521ec1eb3afa8a, height: 24, txs: 1
+2024-10-04 18:50:35 UpdateTip:            new best=00be89a45e3e44e86b35a548c4b68c25560b18f058c082a74d707fdca07e3268  height=24  log2_work=12.643856  tx=25  date=2024-10-04 18:50:35 progress=1.000000  cache=0
+2024-10-04 18:50:41 keypool added key 3, size=2
+2024-10-04 18:50:47 MultiChainMiner: Block Found - 0004ee967b93851124bbe5dde2199967c4bf33c11ce7b3e641039e0cf344efa3, prev: 00be89a45e3e44e86b35a548c4b68c25560b18f058c082a74d707fdca07e3268, height: 25, txs: 1
+2024-10-04 18:50:47 UpdateTip:            new best=0004ee967b93851124bbe5dde2199967c4bf33c11ce7b3e641039e0cf344efa3  height=25  log2_work=12.70044  tx=26  date=2024-10-04 18:50:47 progress=1.000000  cache=0
+2024-10-04 18:50:58 MultiChainMiner: Block Found - 00935286e84ca4a903aca201f2f09153b16851219920e1c2b10e1dffb84c9f0e, prev: 0004ee967b93851124bbe5dde2199967c4bf33c11ce7b3e641039e0cf344efa3, height: 26, txs: 1
+2024-10-04 18:50:58 UpdateTip:            new best=00935286e84ca4a903aca201f2f09153b16851219920e1c2b10e1dffb84c9f0e  height=26  log2_work=12.754888  tx=27  date=2024-10-04 18:50:58 progress=1.000000  cache=0
+2024-10-04 18:51:10 MultiChainMiner: Block Found - 003d64935095e5826cd6ccd7810718c238ee0f7b53f910546cba06e64dcd463a, prev: 00935286e84ca4a903aca201f2f09153b16851219920e1c2b10e1dffb84c9f0e, height: 27, txs: 1
+2024-10-04 18:51:10 UpdateTip:            new best=003d64935095e5826cd6ccd7810718c238ee0f7b53f910546cba06e64dcd463a  height=27  log2_work=12.807355  tx=28  date=2024-10-04 18:51:10 progress=1.000000  cache=0
+2024-10-04 18:51:12 mchn: Destination address doesn't have receive permission: 1a8R1WKjNz8Prb93wqinScViPTiSspjpF7Wcas
+2024-10-04 18:51:20 MultiChainMiner: Block Found - 00588db7f599116c66f66178686e83f8abded1bb293ddec4ad1d1e9717929807, prev: 003d64935095e5826cd6ccd7810718c238ee0f7b53f910546cba06e64dcd463a, height: 28, txs: 1
+2024-10-04 18:51:20 UpdateTip:            new best=00588db7f599116c66f66178686e83f8abded1bb293ddec4ad1d1e9717929807  height=28  log2_work=12.857981  tx=29  date=2024-10-04 18:51:20 progress=1.000000  cache=0
+2024-10-04 18:51:38 MultiChainMiner: Block Found - 00f9a64b98ee8af01d65fa7e01b8b5a41bdf52b58ddc2a1fa4c1e9692f7f008e, prev: 00588db7f599116c66f66178686e83f8abded1bb293ddec4ad1d1e9717929807, height: 29, txs: 1
+2024-10-04 18:51:38 UpdateTip:            new best=00f9a64b98ee8af01d65fa7e01b8b5a41bdf52b58ddc2a1fa4c1e9692f7f008e  height=29  log2_work=12.906891  tx=30  date=2024-10-04 18:51:38 progress=1.000000  cache=0
+2024-10-04 18:51:46 mchn: Granting receive permission(s) to address 1a8R1WKjNz8Prb93wqinScViPTiSspjpF7Wcas (0-4294967295)
+2024-10-04 18:51:46 CommitTransaction: 6285743078c4855117c932e38503f5b94de746ab8f5c970b92882fb1843f40bd, vin: 1, vout: 2
+2024-10-04 18:51:46 mchn: Granting receive permission(s) to address 1a8R1WKjNz8Prb93wqinScViPTiSspjpF7Wcas (0-4294967295)
+2024-10-04 18:51:46 CommitTransaction: 3af87efa065b21eeaf51521d2ecf3fe354ccf523e63241ae2f9b01c525e658e6, vin: 1, vout: 2
+2024-10-04 18:51:50 mchn: Granting receive permission(s) to address 1a8R1WKjNz8Prb93wqinScViPTiSspjpF7Wcas (0-4294967295)
+2024-10-04 18:51:50 CommitTransaction: f9f175fe6cd63e66130794029b4fa518bdec6e272c9df53e4780977b9ae843d6, vin: 1, vout: 2
+2024-10-04 18:51:56 mchn: Coin selection: Insufficient funds, but there are unspent outputs belonging to addresses without send or receive permission.
+2024-10-04 18:51:56 SendMoney() : Insufficient funds, but there are unspent outputs belonging to addresses without send or receive permission.
+2024-10-04 18:52:02 MultiChainMiner: Block Found - 00753be7c4795ced57a6bb2dee7cd8ec54291628a145033d132ac86bcb983819, prev: 00f9a64b98ee8af01d65fa7e01b8b5a41bdf52b58ddc2a1fa4c1e9692f7f008e, height: 30, txs: 4
+2024-10-04 18:52:02 UpdateTip:            new best=00753be7c4795ced57a6bb2dee7cd8ec54291628a145033d132ac86bcb983819  height=30  log2_work=12.954196  tx=34  date=2024-10-04 18:52:02 progress=1.000000  cache=0
+2024-10-04 18:52:16 MultiChainMiner: Block Found - 0068791a5c0870bba9faf346c95ee60145caa6886dadd4a5e8d401d39249068e, prev: 00753be7c4795ced57a6bb2dee7cd8ec54291628a145033d132ac86bcb983819, height: 31, txs: 1
+2024-10-04 18:52:16 UpdateTip:            new best=0068791a5c0870bba9faf346c95ee60145caa6886dadd4a5e8d401d39249068e  height=31  log2_work=13  tx=35  date=2024-10-04 18:52:16 progress=1.000000  cache=0
+2024-10-04 18:52:32 MultiChainMiner: Block Found - 00fa0737ca289c5c201eae7f3a40b9f299fd9d26aab4ddf6f632476eb03a89dd, prev: 0068791a5c0870bba9faf346c95ee60145caa6886dadd4a5e8d401d39249068e, height: 32, txs: 1
+2024-10-04 18:52:32 UpdateTip:            new best=00fa0737ca289c5c201eae7f3a40b9f299fd9d26aab4ddf6f632476eb03a89dd  height=32  log2_work=13.044394  tx=36  date=2024-10-04 18:52:32 progress=1.000000  cache=0
+2024-10-04 18:52:38 MultiChainMiner: Block Found - 00409c17ef9926259944580d6e21ca6a16a16af479b5599519fb1fa163817b7e, prev: 00fa0737ca289c5c201eae7f3a40b9f299fd9d26aab4ddf6f632476eb03a89dd, height: 33, txs: 1
+2024-10-04 18:52:38 UpdateTip:            new best=00409c17ef9926259944580d6e21ca6a16a16af479b5599519fb1fa163817b7e  height=33  log2_work=13.087463  tx=37  date=2024-10-04 18:52:38 progress=1.000000  cache=0
+2024-10-04 18:52:55 MultiChainMiner: Block Found - 001ea4cf6f6197e8ee001174e24c37a32db8b913ed7e3d177606e6a9af7f8ca2, prev: 00409c17ef9926259944580d6e21ca6a16a16af479b5599519fb1fa163817b7e, height: 34, txs: 1
+2024-10-04 18:52:55 UpdateTip:            new best=001ea4cf6f6197e8ee001174e24c37a32db8b913ed7e3d177606e6a9af7f8ca2  height=34  log2_work=13.129283  tx=38  date=2024-10-04 18:52:55 progress=1.000000  cache=0
+2024-10-04 18:53:21 MultiChainMiner: Block Found - 001bde4f356042db16ed04f65e6e40cae0796b8d65dda2ccc60f9cc80f16182f, prev: 001ea4cf6f6197e8ee001174e24c37a32db8b913ed7e3d177606e6a9af7f8ca2, height: 35, txs: 1
+2024-10-04 18:53:21 UpdateTip:            new best=001bde4f356042db16ed04f65e6e40cae0796b8d65dda2ccc60f9cc80f16182f  height=35  log2_work=13.169925  tx=39  date=2024-10-04 18:53:21 progress=1.000000  cache=0
+2024-10-04 18:53:22 MultiChainMiner: Block Found - 00a6851ebfcce1d0e90f2c846c6e6badc673f7e291c13916948b5636df391c63, prev: 001bde4f356042db16ed04f65e6e40cae0796b8d65dda2ccc60f9cc80f16182f, height: 36, txs: 1
+2024-10-04 18:53:23 UpdateTip:            new best=00a6851ebfcce1d0e90f2c846c6e6badc673f7e291c13916948b5636df391c63  height=36  log2_work=13.209453  tx=40  date=2024-10-04 18:53:22 progress=1.000000  cache=0
+2024-10-04 18:53:23 CommitTransaction: f02ac07cd83120780a786a94ca8ece3fcd22d9668a3bb238520345a139c94d98, vin: 1, vout: 2
+2024-10-04 18:53:36 MultiChainMiner: Block Found - 00cf9d7a42b9d5910ab814b8b0538b2f98031ec43267eccb8a851381d1993541, prev: 00a6851ebfcce1d0e90f2c846c6e6badc673f7e291c13916948b5636df391c63, height: 37, txs: 2
+2024-10-04 18:53:36 UpdateTip:            new best=00cf9d7a42b9d5910ab814b8b0538b2f98031ec43267eccb8a851381d1993541  height=37  log2_work=13.247928  tx=42  date=2024-10-04 18:53:36 progress=1.000000  cache=0
+2024-10-04 18:53:56 MultiChainMiner: Block Found - 00e875eec96be029b069ba83ba0d3bf5fdb8a4832284f6a14b0d5b5f8dd098f4, prev: 00cf9d7a42b9d5910ab814b8b0538b2f98031ec43267eccb8a851381d1993541, height: 38, txs: 1
+2024-10-04 18:53:56 UpdateTip:            new best=00e875eec96be029b069ba83ba0d3bf5fdb8a4832284f6a14b0d5b5f8dd098f4  height=38  log2_work=13.285402  tx=43  date=2024-10-04 18:53:56 progress=1.000000  cache=0
+2024-10-04 18:54:09 MultiChainMiner: Block Found - 00baea25ca8d3a8a19345472f420f156a5338451238125a4b366512f86612266, prev: 00e875eec96be029b069ba83ba0d3bf5fdb8a4832284f6a14b0d5b5f8dd098f4, height: 39, txs: 1
+2024-10-04 18:54:09 UpdateTip:            new best=00baea25ca8d3a8a19345472f420f156a5338451238125a4b366512f86612266  height=39  log2_work=13.321928  tx=44  date=2024-10-04 18:54:09 progress=1.000000  cache=0
+2024-10-04 18:54:24 MultiChainMiner: Block Found - 003d2f527c79fc18f4fdab4b4945a0d700e12c6bd5d953ad043a1b19044891c5, prev: 00baea25ca8d3a8a19345472f420f156a5338451238125a4b366512f86612266, height: 40, txs: 1
+2024-10-04 18:54:24 UpdateTip:            new best=003d2f527c79fc18f4fdab4b4945a0d700e12c6bd5d953ad043a1b19044891c5  height=40  log2_work=13.357552  tx=45  date=2024-10-04 18:54:24 progress=1.000000  cache=0
+2024-10-04 18:54:44 MultiChainMiner: Block Found - 001e95bd38364a212937fb07c88fada430f60053f529c1a350bf6b3746b8ad6f, prev: 003d2f527c79fc18f4fdab4b4945a0d700e12c6bd5d953ad043a1b19044891c5, height: 41, txs: 1
+2024-10-04 18:54:44 UpdateTip:            new best=001e95bd38364a212937fb07c88fada430f60053f529c1a350bf6b3746b8ad6f  height=41  log2_work=13.392317  tx=46  date=2024-10-04 18:54:44 progress=1.000000  cache=0
+2024-10-04 18:54:51 MultiChainMiner: Block Found - 0062aa61d7955bc7cb54b813224261ef769fa5b9588e4d88387f41ee5359d548, prev: 001e95bd38364a212937fb07c88fada430f60053f529c1a350bf6b3746b8ad6f, height: 42, txs: 1
+2024-10-04 18:54:51 UpdateTip:            new best=0062aa61d7955bc7cb54b813224261ef769fa5b9588e4d88387f41ee5359d548  height=42  log2_work=13.426265  tx=47  date=2024-10-04 18:54:51 progress=1.000000  cache=0
+2024-10-04 18:54:57 keypool added key 4, size=2
+2024-10-04 18:55:08 MultiChainMiner: Block Found - 008ca1baddcbbd7eb9da1210503f406aaebb39cbd77eb977542e4a60122e0f14, prev: 0062aa61d7955bc7cb54b813224261ef769fa5b9588e4d88387f41ee5359d548, height: 43, txs: 1
+2024-10-04 18:55:08 UpdateTip:            new best=008ca1baddcbbd7eb9da1210503f406aaebb39cbd77eb977542e4a60122e0f14  height=43  log2_work=13.459432  tx=48  date=2024-10-04 18:55:08 progress=1.000000  cache=0
+2024-10-04 18:55:32 MultiChainMiner: Block Found - 00f391a6a6c2ad9718b1baf5a04018906b94f1447d0b2b015609eb992a1eb453, prev: 008ca1baddcbbd7eb9da1210503f406aaebb39cbd77eb977542e4a60122e0f14, height: 44, txs: 1
+2024-10-04 18:55:32 UpdateTip:            new best=00f391a6a6c2ad9718b1baf5a04018906b94f1447d0b2b015609eb992a1eb453  height=44  log2_work=13.491853  tx=49  date=2024-10-04 18:55:32 progress=1.000000  cache=0
+2024-10-04 18:55:44 MultiChainMiner: Block Found - 001164ee0d85b6c43eb582e2a5ab7dde246e5972df4fcfd6db6677044425838b, prev: 00f391a6a6c2ad9718b1baf5a04018906b94f1447d0b2b015609eb992a1eb453, height: 45, txs: 1
+2024-10-04 18:55:44 UpdateTip:            new best=001164ee0d85b6c43eb582e2a5ab7dde246e5972df4fcfd6db6677044425838b  height=45  log2_work=13.523562  tx=50  date=2024-10-04 18:55:44 progress=1.000000  cache=0
+2024-10-04 18:56:02 MultiChainMiner: Block Found - 00b57321d16baa9b2f6e9e4105cb930f9f508f1a2b601f485729f095e3397ae4, prev: 001164ee0d85b6c43eb582e2a5ab7dde246e5972df4fcfd6db6677044425838b, height: 46, txs: 1
+2024-10-04 18:56:02 UpdateTip:            new best=00b57321d16baa9b2f6e9e4105cb930f9f508f1a2b601f485729f095e3397ae4  height=46  log2_work=13.554589  tx=51  date=2024-10-04 18:56:02 progress=1.000000  cache=0
+2024-10-04 18:56:06 MultiChainMiner: Block Found - 00fb4dfea2b13b45d1983379a1c4fb095feae7221cc1b05bbcbd08658aa10890, prev: 00b57321d16baa9b2f6e9e4105cb930f9f508f1a2b601f485729f095e3397ae4, height: 47, txs: 1
+2024-10-04 18:56:06 UpdateTip:            new best=00fb4dfea2b13b45d1983379a1c4fb095feae7221cc1b05bbcbd08658aa10890  height=47  log2_work=13.584963  tx=52  date=2024-10-04 18:56:06 progress=1.000000  cache=0
+2024-10-04 18:56:32 MultiChainMiner: Block Found - 0025948ec512b56ab1c6e5e7e18ade4cb89b83415a0d87b1753051d0c36c25cf, prev: 00fb4dfea2b13b45d1983379a1c4fb095feae7221cc1b05bbcbd08658aa10890, height: 48, txs: 1
+2024-10-04 18:56:32 UpdateTip:            new best=0025948ec512b56ab1c6e5e7e18ade4cb89b83415a0d87b1753051d0c36c25cf  height=48  log2_work=13.61471  tx=53  date=2024-10-04 18:56:32 progress=1.000000  cache=0
+2024-10-04 18:56:43 MultiChainMiner: Block Found - 00c7951db14e9aa13834f9afd5b27511eb36bea7ff1fd8c06fadee0179c3c5a9, prev: 0025948ec512b56ab1c6e5e7e18ade4cb89b83415a0d87b1753051d0c36c25cf, height: 49, txs: 1
+2024-10-04 18:56:43 UpdateTip:            new best=00c7951db14e9aa13834f9afd5b27511eb36bea7ff1fd8c06fadee0179c3c5a9  height=49  log2_work=13.643856  tx=54  date=2024-10-04 18:56:43 progress=1.000000  cache=0
+2024-10-04 18:56:51 MultiChainMiner: Block Found - 0014c720ebe0a8d05e07eee93f8fdde4be28ca6b540292a4dbf9a6b2b37bc9c2, prev: 00c7951db14e9aa13834f9afd5b27511eb36bea7ff1fd8c06fadee0179c3c5a9, height: 50, txs: 1
+2024-10-04 18:56:51 UpdateTip:            new best=0014c720ebe0a8d05e07eee93f8fdde4be28ca6b540292a4dbf9a6b2b37bc9c2  height=50  log2_work=13.672425  tx=55  date=2024-10-04 18:56:51 progress=1.000000  cache=0
+2024-10-04 18:57:16 MultiChainMiner: Block Found - 00906b1448de97b28c45fe85c483adcabc18e4e936f93b93eddbe61afb5451cb, prev: 0014c720ebe0a8d05e07eee93f8fdde4be28ca6b540292a4dbf9a6b2b37bc9c2, height: 51, txs: 1
+2024-10-04 18:57:16 UpdateTip:            new best=00906b1448de97b28c45fe85c483adcabc18e4e936f93b93eddbe61afb5451cb  height=51  log2_work=13.70044  tx=56  date=2024-10-04 18:57:16 progress=1.000000  cache=0
+2024-10-04 18:57:30 MultiChainMiner: Block Found - 00ccdc9e2d988f3ed564ece19213afc71c0bf3c444a7be13b188cf5bbf21c0aa, prev: 00906b1448de97b28c45fe85c483adcabc18e4e936f93b93eddbe61afb5451cb, height: 52, txs: 1
+2024-10-04 18:57:30 UpdateTip:            new best=00ccdc9e2d988f3ed564ece19213afc71c0bf3c444a7be13b188cf5bbf21c0aa  height=52  log2_work=13.72792  tx=57  date=2024-10-04 18:57:30 progress=1.000000  cache=0
+2024-10-04 18:57:48 MultiChainMiner: Block Found - 000b2493e6c2639a786bfd674714b5d724b14496b67b192b412c27af01b52c8f, prev: 00ccdc9e2d988f3ed564ece19213afc71c0bf3c444a7be13b188cf5bbf21c0aa, height: 53, txs: 1
+2024-10-04 18:57:48 UpdateTip:            new best=000b2493e6c2639a786bfd674714b5d724b14496b67b192b412c27af01b52c8f  height=53  log2_work=13.754888  tx=58  date=2024-10-04 18:57:48 progress=1.000000  cache=0
+2024-10-04 18:57:54 MultiChainMiner: Block Found - 00be54976f827f610447c77cfae836b89406083eb8124d4bc76eb828ced49142, prev: 000b2493e6c2639a786bfd674714b5d724b14496b67b192b412c27af01b52c8f, height: 54, txs: 1
+2024-10-04 18:57:54 UpdateTip:            new best=00be54976f827f610447c77cfae836b89406083eb8124d4bc76eb828ced49142  height=54  log2_work=13.78136  tx=59  date=2024-10-04 18:57:54 progress=1.000000  cache=0
+2024-10-04 18:58:19 MultiChainMiner: Block Found - 008c23ab278749fb1a93f23c30f8c4e1ddfacf9c6777735887a0b1a4fbae2e69, prev: 00be54976f827f610447c77cfae836b89406083eb8124d4bc76eb828ced49142, height: 55, txs: 1
+2024-10-04 18:58:19 UpdateTip:            new best=008c23ab278749fb1a93f23c30f8c4e1ddfacf9c6777735887a0b1a4fbae2e69  height=55  log2_work=13.807355  tx=60  date=2024-10-04 18:58:19 progress=1.000000  cache=0
+2024-10-04 18:58:23 MultiChainMiner: Block Found - 00143eb8e1a8eec6bc7f24bc229cd78a8fc77cb5486e953b0c6162947b5ec2fb, prev: 008c23ab278749fb1a93f23c30f8c4e1ddfacf9c6777735887a0b1a4fbae2e69, height: 56, txs: 1
+2024-10-04 18:58:23 UpdateTip:            new best=00143eb8e1a8eec6bc7f24bc229cd78a8fc77cb5486e953b0c6162947b5ec2fb  height=56  log2_work=13.83289  tx=61  date=2024-10-04 18:58:23 progress=1.000000  cache=0
+2024-10-04 18:58:42 MultiChainMiner: Block Found - 00646b0c9e2ebf5f76440c46d7b27ef8ae9c064d25d135dea5305d99eb21cac8, prev: 00143eb8e1a8eec6bc7f24bc229cd78a8fc77cb5486e953b0c6162947b5ec2fb, height: 57, txs: 1
+2024-10-04 18:58:42 UpdateTip:            new best=00646b0c9e2ebf5f76440c46d7b27ef8ae9c064d25d135dea5305d99eb21cac8  height=57  log2_work=13.857981  tx=62  date=2024-10-04 18:58:42 progress=1.000000  cache=0
+2024-10-04 18:58:51 MultiChainMiner: Block Found - 008f21d7f9d2a4eefbe6c401ec38ae44d5f596e11eb95ef7cc4131cfeb6967e0, prev: 00646b0c9e2ebf5f76440c46d7b27ef8ae9c064d25d135dea5305d99eb21cac8, height: 58, txs: 1
+2024-10-04 18:58:51 UpdateTip:            new best=008f21d7f9d2a4eefbe6c401ec38ae44d5f596e11eb95ef7cc4131cfeb6967e0  height=58  log2_work=13.882643  tx=63  date=2024-10-04 18:58:51 progress=1.000000  cache=0
+2024-10-04 18:59:09 MultiChainMiner: Block Found - 00cc37475ffa7a33b87e1b6c08e2b5da9f49c25c50c91cb87d3b01465370e10a, prev: 008f21d7f9d2a4eefbe6c401ec38ae44d5f596e11eb95ef7cc4131cfeb6967e0, height: 59, txs: 1
+2024-10-04 18:59:09 UpdateTip:            new best=00cc37475ffa7a33b87e1b6c08e2b5da9f49c25c50c91cb87d3b01465370e10a  height=59  log2_work=13.906891  tx=64  date=2024-10-04 18:59:09 progress=1.000000  cache=0
+2024-10-04 19:13:55 addcon thread interrupt
+2024-10-04 19:13:55 opencon thread interrupt
+2024-10-04 19:13:55 dumpaddr thread stop
+2024-10-04 19:13:55 msghand thread interrupt
+2024-10-04 19:13:55 net thread interrupt
+2024-10-04 19:13:55 Shutdown: In progress...
+2024-10-04 19:13:55 RPCAcceptHandler: Error: Operation canceled
+2024-10-04 19:13:55 MultiChainMiner terminated
+2024-10-04 19:13:55 StopNode()
+2024-10-04 19:13:55 Node stopped
+2024-10-04 19:13:55 Shutdown: done
+2024-10-04 19:14:39 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-10-04 19:14:39 MultiChain version build 1.0.9 protocol 10012 (Dec  3 2018, 16:08:41)
+2024-10-04 19:14:39 Using OpenSSL version OpenSSL 1.0.1h 5 Jun 2014
+2024-10-04 19:14:39 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2024-10-04 19:14:39 Default data directory /home/ubuntu/.multichain/cubecoin
+2024-10-04 19:14:39 Using data directory /home/ubuntu/.multichain/cubecoin
+2024-10-04 19:14:39 Using config file /home/ubuntu/.multichain/cubecoin/cubecoin.conf
+2024-10-04 19:14:39 Using at most 125 connections (1024 file descriptors available)
+2024-10-04 19:14:39 Using 4 threads for script verification
+2024-10-04 19:14:39 Using wallet wallet.dat
+2024-10-04 19:14:39 init message: Verifying wallet...
+2024-10-04 19:14:39 CDBEnv::Open : LogDir=/home/ubuntu/.multichain/cubecoin/database ErrorFile=/home/ubuntu/.multichain/cubecoin/db.log
+2024-10-04 19:14:39 init message: Initializing multichain...
+2024-10-04 19:14:39 mchn: Parameter set is valid - initializing blockchain parameters...
+2024-10-04 19:14:39 Wallet mode: 00000003
+2024-10-04 19:14:39 nFileVersion = 100000
+2024-10-04 19:14:39 Keys: 4 plaintext, 0 encrypted, 4 w/ metadata, 4 total
+2024-10-04 19:14:39 Node paused state is set to 00000000
+2024-10-04 19:14:39 Binding RPC on address ::1 port 9560 (IPv4+IPv6 bind any: 0)
+2024-10-04 19:14:39 Binding RPC on address 127.0.0.1 port 9560 (IPv4+IPv6 bind any: 0)
+2024-10-04 19:14:39 Bound to [::]:9561
+2024-10-04 19:14:39 Bound to 0.0.0.0:9561
+2024-10-04 19:14:39 Setting banned transaction list:    0 transactions
+2024-10-04 19:14:39 init message: Loading block index...
+2024-10-04 19:14:39 Opening LevelDB in /home/ubuntu/.multichain/cubecoin/blocks/index
+2024-10-04 19:14:39 Opened LevelDB successfully
+2024-10-04 19:14:39 Opening LevelDB in /home/ubuntu/.multichain/cubecoin/chainstate
+2024-10-04 19:14:39 Opened LevelDB successfully
+2024-10-04 19:14:39 nFileVersion = 100000
+2024-10-04 19:14:39 Keys: 4 plaintext, 0 encrypted, 4 w/ metadata, 4 total
+2024-10-04 19:14:39 LoadBlockIndexDB: last block file = 0
+2024-10-04 19:14:39 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=60, size=17357, heights=0...59, time=2024-10-04...2024-10-04)
+2024-10-04 19:14:39 Checking all blk files are present...
+2024-10-04 19:14:39 LoadBlockIndexDB(): transaction index enabled
+2024-10-04 19:14:39 LoadBlockIndexDB(): hashBestChain=00cc37475ffa7a33b87e1b6c08e2b5da9f49c25c50c91cb87d3b01465370e10a height=59 date=2024-10-04 18:59:09 progress=1.000000
+2024-10-04 19:14:39 init message: Verifying blocks...
+2024-10-04 19:14:39 Verifying last 59 blocks at level 3
+2024-10-04 19:14:39 No coin database inconsistencies in last 59 blocks (63 transactions)
+2024-10-04 19:14:39  block index              60ms
+2024-10-04 19:14:39 MultiChain protocol version: 10012
+2024-10-04 19:14:39 init message: Loading wallet...
+2024-10-04 19:14:39 nFileVersion = 100000
+2024-10-04 19:14:39 Keys: 4 plaintext, 0 encrypted, 4 w/ metadata, 4 total
+2024-10-04 19:14:39  wallet                    1ms
+2024-10-04 19:14:39 mapBlockIndex.size() = 60
+2024-10-04 19:14:39 nBestHeight = 59
+2024-10-04 19:14:39 setKeyPool.size() = 2
+2024-10-04 19:14:39 oldWallet.size() = 0
+2024-10-04 19:14:39 mapWallet.size() = 5
+2024-10-04 19:14:39 mapAddressBook.size() = 2
+2024-10-04 19:14:39 init message: Loading addresses...
+2024-10-04 19:14:39 Loaded 0 addresses from peers.dat  0ms
+2024-10-04 19:14:39 AddLocal(172.31.16.59:9561,1)
+2024-10-04 19:14:39 Discover: IPv4 enX0: 172.31.16.59
+2024-10-04 19:14:39 AddLocal([fe80::42a:d7ff:feb4:f0ab]:9561,1)
+2024-10-04 19:14:39 Discover: IPv6 enX0: fe80::42a:d7ff:feb4:f0ab
+2024-10-04 19:14:39 dnsseed thread start
+2024-10-04 19:14:39 Loading addresses from DNS seeds (could take a while)
+2024-10-04 19:14:39 0 addresses found from DNS seeds
+2024-10-04 19:14:39 dnsseed thread exit
+2024-10-04 19:14:39 opencon thread start
+2024-10-04 19:14:39 net thread start
+2024-10-04 19:14:39 init message: Done loading
+2024-10-04 19:14:39 dumpaddr thread start
+2024-10-04 19:14:39 msghand thread start
+2024-10-04 19:14:39 MultiChainMiner started
+2024-10-04 19:14:39 addcon thread start
+2024-10-04 19:14:39 Node started
+2024-10-04 19:14:44 dumpaddr thread stop
+2024-10-04 19:14:44 msghand thread interrupt
+2024-10-04 19:14:44 addcon thread interrupt
+2024-10-04 19:14:44 opencon thread interrupt
+2024-10-04 19:14:44 net thread interrupt
+2024-10-04 19:14:44 Shutdown: In progress...
+2024-10-04 19:14:45 MultiChainMiner terminated
+2024-10-04 19:14:45 StopNode()
+2024-10-04 19:14:45 Node stopped
+2024-10-04 19:14:45 Shutdown: done
+2024-10-04 19:23:17 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-10-04 19:23:17 MultiChain version build 1.0.9 protocol 10012 (Dec  3 2018, 16:08:41)
+2024-10-04 19:23:17 Using OpenSSL version OpenSSL 1.0.1h 5 Jun 2014
+2024-10-04 19:23:17 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2024-10-04 19:23:17 Default data directory /home/ubuntu/.multichain/cubecoin
+2024-10-04 19:23:17 Using data directory /home/ubuntu/.multichain/cubecoin
+2024-10-04 19:23:17 Using config file /home/ubuntu/.multichain/cubecoin/cubecoin.conf
+2024-10-04 19:23:17 Using at most 125 connections (1024 file descriptors available)
+2024-10-04 19:23:17 Using 4 threads for script verification
+2024-10-04 19:23:17 Using wallet wallet.dat
+2024-10-04 19:23:17 init message: Verifying wallet...
+2024-10-04 19:23:17 CDBEnv::Open : LogDir=/home/ubuntu/.multichain/cubecoin/database ErrorFile=/home/ubuntu/.multichain/cubecoin/db.log
+2024-10-04 19:23:17 init message: Initializing multichain...
+2024-10-04 19:23:17 mchn: Parameter set is valid - initializing blockchain parameters...
+2024-10-04 19:23:17 Wallet mode: 00000003
+2024-10-04 19:23:17 nFileVersion = 100000
+2024-10-04 19:23:17 Keys: 4 plaintext, 0 encrypted, 4 w/ metadata, 4 total
+2024-10-04 19:23:17 Node paused state is set to 00000000
+2024-10-04 19:23:17 Allowing RPC connections from: 127.0.0.0/255.0.0.0 ::1/ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff 
+2024-10-04 19:23:17 Binding RPC on address ::1 port 9560 (IPv4+IPv6 bind any: 0)
+2024-10-04 19:23:17 Binding RPC on address 127.0.0.1 port 9560 (IPv4+IPv6 bind any: 0)
+2024-10-04 19:23:17 Bound to [::]:9561
+2024-10-04 19:23:17 Bound to 0.0.0.0:9561
+2024-10-04 19:23:17 Setting banned transaction list:    0 transactions
+2024-10-04 19:23:17 init message: Loading block index...
+2024-10-04 19:23:17 Opening LevelDB in /home/ubuntu/.multichain/cubecoin/blocks/index
+2024-10-04 19:23:17 Opened LevelDB successfully
+2024-10-04 19:23:17 Opening LevelDB in /home/ubuntu/.multichain/cubecoin/chainstate
+2024-10-04 19:23:17 Opened LevelDB successfully
+2024-10-04 19:23:17 nFileVersion = 100000
+2024-10-04 19:23:17 Keys: 4 plaintext, 0 encrypted, 4 w/ metadata, 4 total
+2024-10-04 19:23:17 LoadBlockIndexDB: last block file = 0
+2024-10-04 19:23:17 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=60, size=17357, heights=0...59, time=2024-10-04...2024-10-04)
+2024-10-04 19:23:17 Checking all blk files are present...
+2024-10-04 19:23:17 LoadBlockIndexDB(): transaction index enabled
+2024-10-04 19:23:17 LoadBlockIndexDB(): hashBestChain=00cc37475ffa7a33b87e1b6c08e2b5da9f49c25c50c91cb87d3b01465370e10a height=59 date=2024-10-04 18:59:09 progress=1.000000
+2024-10-04 19:23:17 init message: Verifying blocks...
+2024-10-04 19:23:17 Verifying last 59 blocks at level 3
+2024-10-04 19:23:17 No coin database inconsistencies in last 59 blocks (63 transactions)
+2024-10-04 19:23:17  block index              41ms
+2024-10-04 19:23:17 MultiChain protocol version: 10012
+2024-10-04 19:23:17 init message: Loading wallet...
+2024-10-04 19:23:17 nFileVersion = 100000
+2024-10-04 19:23:17 Keys: 4 plaintext, 0 encrypted, 4 w/ metadata, 4 total
+2024-10-04 19:23:17  wallet                    0ms
+2024-10-04 19:23:17 mapBlockIndex.size() = 60
+2024-10-04 19:23:17 nBestHeight = 59
+2024-10-04 19:23:17 setKeyPool.size() = 2
+2024-10-04 19:23:17 oldWallet.size() = 0
+2024-10-04 19:23:17 mapWallet.size() = 5
+2024-10-04 19:23:17 mapAddressBook.size() = 2
+2024-10-04 19:23:17 init message: Loading addresses...
+2024-10-04 19:23:17 Loaded 0 addresses from peers.dat  0ms
+2024-10-04 19:23:17 AddLocal(172.31.16.59:9561,1)
+2024-10-04 19:23:17 Discover: IPv4 enX0: 172.31.16.59
+2024-10-04 19:23:17 AddLocal([fe80::42a:d7ff:feb4:f0ab]:9561,1)
+2024-10-04 19:23:17 Discover: IPv6 enX0: fe80::42a:d7ff:feb4:f0ab
+2024-10-04 19:23:17 init message: Done loading
+2024-10-04 19:23:17 addcon thread start
+2024-10-04 19:23:17 dnsseed thread start
+2024-10-04 19:23:17 Loading addresses from DNS seeds (could take a while)
+2024-10-04 19:23:17 0 addresses found from DNS seeds
+2024-10-04 19:23:17 dnsseed thread exit
+2024-10-04 19:23:17 MultiChainMiner started
+2024-10-04 19:23:17 net thread start
+2024-10-04 19:23:17 opencon thread start
+2024-10-04 19:23:17 msghand thread start
+2024-10-04 19:23:17 dumpaddr thread start
+2024-10-04 19:23:17 Node started
+2024-10-04 19:23:18 opencon thread interrupt
+2024-10-04 19:23:18 addcon thread interrupt
+2024-10-04 19:23:18 msghand thread interrupt
+2024-10-04 19:23:18 dumpaddr thread stop
+2024-10-04 19:23:18 net thread interrupt
+2024-10-04 19:23:18 Shutdown: In progress...
+2024-10-04 19:23:19 MultiChainMiner terminated
+2024-10-04 19:23:19 StopNode()
+2024-10-04 19:23:19 Node stopped
+2024-10-04 19:23:19 Shutdown: done
+2024-10-04 19:24:46 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-10-04 19:24:46 MultiChain version build 1.0.9 protocol 10012 (Dec  3 2018, 16:08:41)
+2024-10-04 19:24:46 Using OpenSSL version OpenSSL 1.0.1h 5 Jun 2014
+2024-10-04 19:24:46 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2024-10-04 19:24:46 Default data directory /home/ubuntu/.multichain/cubecoin
+2024-10-04 19:24:46 Using data directory /home/ubuntu/.multichain/cubecoin
+2024-10-04 19:24:46 Using config file /home/ubuntu/.multichain/cubecoin/cubecoin.conf
+2024-10-04 19:24:46 Using at most 125 connections (1024 file descriptors available)
+2024-10-04 19:24:46 Using 4 threads for script verification
+2024-10-04 19:24:46 Using wallet wallet.dat
+2024-10-04 19:24:46 init message: Verifying wallet...
+2024-10-04 19:24:46 CDBEnv::Open : LogDir=/home/ubuntu/.multichain/cubecoin/database ErrorFile=/home/ubuntu/.multichain/cubecoin/db.log
+2024-10-04 19:24:46 init message: Initializing multichain...
+2024-10-04 19:24:46 mchn: Parameter set is valid - initializing blockchain parameters...
+2024-10-04 19:24:46 Wallet mode: 00000003
+2024-10-04 19:24:46 nFileVersion = 100000
+2024-10-04 19:24:46 Keys: 4 plaintext, 0 encrypted, 4 w/ metadata, 4 total
+2024-10-04 19:24:46 Node paused state is set to 00000000
+2024-10-04 19:24:46 Binding RPC on address ::1 port 9560 (IPv4+IPv6 bind any: 0)
+2024-10-04 19:24:46 Binding RPC on address 127.0.0.1 port 9560 (IPv4+IPv6 bind any: 0)
+2024-10-04 19:24:46 Bound to [::]:9561
+2024-10-04 19:24:46 Bound to 0.0.0.0:9561
+2024-10-04 19:24:46 Setting banned transaction list:    0 transactions
+2024-10-04 19:24:46 init message: Loading block index...
+2024-10-04 19:24:46 Opening LevelDB in /home/ubuntu/.multichain/cubecoin/blocks/index
+2024-10-04 19:24:46 Opened LevelDB successfully
+2024-10-04 19:24:46 Opening LevelDB in /home/ubuntu/.multichain/cubecoin/chainstate
+2024-10-04 19:24:46 Opened LevelDB successfully
+2024-10-04 19:24:46 nFileVersion = 100000
+2024-10-04 19:24:46 Keys: 4 plaintext, 0 encrypted, 4 w/ metadata, 4 total
+2024-10-04 19:24:46 LoadBlockIndexDB: last block file = 0
+2024-10-04 19:24:46 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=60, size=17357, heights=0...59, time=2024-10-04...2024-10-04)
+2024-10-04 19:24:46 Checking all blk files are present...
+2024-10-04 19:24:46 LoadBlockIndexDB(): transaction index enabled
+2024-10-04 19:24:46 LoadBlockIndexDB(): hashBestChain=00cc37475ffa7a33b87e1b6c08e2b5da9f49c25c50c91cb87d3b01465370e10a height=59 date=2024-10-04 18:59:09 progress=1.000000
+2024-10-04 19:24:46 init message: Verifying blocks...
+2024-10-04 19:24:46 Verifying last 59 blocks at level 3
+2024-10-04 19:24:46 No coin database inconsistencies in last 59 blocks (63 transactions)
+2024-10-04 19:24:46  block index              45ms
+2024-10-04 19:24:46 MultiChain protocol version: 10012
+2024-10-04 19:24:46 init message: Loading wallet...
+2024-10-04 19:24:46 nFileVersion = 100000
+2024-10-04 19:24:46 Keys: 4 plaintext, 0 encrypted, 4 w/ metadata, 4 total
+2024-10-04 19:24:46  wallet                    0ms
+2024-10-04 19:24:46 mapBlockIndex.size() = 60
+2024-10-04 19:24:46 nBestHeight = 59
+2024-10-04 19:24:46 setKeyPool.size() = 2
+2024-10-04 19:24:46 oldWallet.size() = 0
+2024-10-04 19:24:46 mapWallet.size() = 5
+2024-10-04 19:24:46 mapAddressBook.size() = 2
+2024-10-04 19:24:46 init message: Loading addresses...
+2024-10-04 19:24:46 Loaded 0 addresses from peers.dat  0ms
+2024-10-04 19:24:46 AddLocal(172.31.16.59:9561,1)
+2024-10-04 19:24:46 Discover: IPv4 enX0: 172.31.16.59
+2024-10-04 19:24:46 AddLocal([fe80::42a:d7ff:feb4:f0ab]:9561,1)
+2024-10-04 19:24:46 Discover: IPv6 enX0: fe80::42a:d7ff:feb4:f0ab
+2024-10-04 19:24:46 net thread start
+2024-10-04 19:24:46 addcon thread start
+2024-10-04 19:24:46 opencon thread start
+2024-10-04 19:24:46 dnsseed thread start
+2024-10-04 19:24:46 msghand thread start
+2024-10-04 19:24:46 init message: Done loading
+2024-10-04 19:24:46 Loading addresses from DNS seeds (could take a while)
+2024-10-04 19:24:46 0 addresses found from DNS seeds
+2024-10-04 19:24:46 dnsseed thread exit
+2024-10-04 19:24:46 MultiChainMiner started
+2024-10-04 19:24:46 dumpaddr thread start
+2024-10-04 19:24:46 Node started
+2024-10-04 19:25:47 Adding fixed seed nodes as DNS doesn't seem to be available.
+2024-10-04 19:43:03 ThreadRPCServer incorrect password attempt from 127.0.0.1
+2024-10-04 19:45:14 ThreadRPCServer incorrect password attempt from 127.0.0.1

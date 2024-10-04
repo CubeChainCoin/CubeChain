@@ -1,0 +1,90 @@
+2024-10-04 18:44:10.858	Initialized. Chain height: -1, Txs: 0
+2024-10-04 18:44:10.866	Entity (00000101, 0000000000000000000000000000000000000000) added successfully
+2024-10-04 18:44:10.866	Entity (00000201, 0000000000000000000000000000000000000000) added successfully
+2024-10-04 18:44:10.866	Entity (00000102, 0000000000000000000000000000000000000000) added successfully
+2024-10-04 18:44:10.866	Entity (00000202, 0000000000000000000000000000000000000000) added successfully
+2024-10-04 18:44:10.866	Entity (00000103, e3743b16c7e1c1656eab86b1f876f58dd960db41) added successfully
+2024-10-04 18:44:10.866	Entity (00000203, e3743b16c7e1c1656eab86b1f876f58dd960db41) added successfully
+2024-10-04 18:44:10.903	Entity (00000105, 00000000a56615117e9119d57110216eb1bb63ec) added successfully
+2024-10-04 18:44:10.903	Entity (00000205, 00000000a56615117e9119d57110216eb1bb63ec) added successfully
+2024-10-04 18:44:10.903	Entity (00000106, 00000000a56615117e9119d57110216eb1bb63ec) added successfully
+2024-10-04 18:44:10.903	Entity (00000206, 00000000a56615117e9119d57110216eb1bb63ec) added successfully
+2024-10-04 18:44:10.903	Entity (00000107, 00000000a56615117e9119d57110216eb1bb63ec) added successfully
+2024-10-04 18:44:10.903	Entity (00000207, 00000000a56615117e9119d57110216eb1bb63ec) added successfully
+2024-10-04 18:44:10.935	NewBlock 0, Txs: 0, Rows: 0
+2024-10-04 18:44:10.990	NewTx ad3b9817334368aef39afdcf1640dce3bea4a1d1fe1786e997c9bcd3691189de, block 1, flags 00000006, import 0
+2024-10-04 18:44:10.998	NewBlock 1, Txs: 1, Rows: 6
+2024-10-04 18:44:11.024	NewBlock 2, Txs: 0, Rows: 0
+2024-10-04 18:44:30.859	NewBlock 3, Txs: 0, Rows: 0
+2024-10-04 18:44:46.296	NewBlock 4, Txs: 0, Rows: 0
+2024-10-04 18:44:56.228	NewBlock 5, Txs: 0, Rows: 0
+2024-10-04 18:45:07.258	NewBlock 6, Txs: 0, Rows: 0
+2024-10-04 18:45:24.896	NewBlock 7, Txs: 0, Rows: 0
+2024-10-04 18:45:33.729	NewBlock 8, Txs: 0, Rows: 0
+2024-10-04 18:45:42.565	NewBlock 9, Txs: 0, Rows: 0
+2024-10-04 18:46:00.202	NewBlock 10, Txs: 0, Rows: 0
+2024-10-04 18:46:10.154	NewBlock 11, Txs: 0, Rows: 0
+2024-10-04 18:46:23.754	Initialized. Chain height: 11, Txs: 1
+2024-10-04 18:46:32.644	NewBlock 12, Txs: 0, Rows: 0
+2024-10-04 18:47:11.394	Initialized. Chain height: 12, Txs: 1
+2024-10-04 18:47:24.677	NewBlock 13, Txs: 0, Rows: 0
+2024-10-04 18:47:45.614	NewBlock 14, Txs: 0, Rows: 0
+2024-10-04 18:48:07.662	NewBlock 15, Txs: 0, Rows: 0
+2024-10-04 18:48:29.702	NewBlock 16, Txs: 0, Rows: 0
+2024-10-04 18:48:39.459	Initialized. Chain height: 16, Txs: 1
+2024-10-04 18:48:51.642	NewBlock 17, Txs: 0, Rows: 0
+2024-10-04 18:49:03.780	NewBlock 18, Txs: 0, Rows: 0
+2024-10-04 18:49:22.520	NewBlock 19, Txs: 0, Rows: 0
+2024-10-04 18:49:31.363	NewBlock 20, Txs: 0, Rows: 0
+2024-10-04 18:49:52.303	NewBlock 21, Txs: 0, Rows: 0
+2024-10-04 18:50:01.139	NewBlock 22, Txs: 0, Rows: 0
+2024-10-04 18:50:20.985	NewBlock 23, Txs: 0, Rows: 0
+2024-10-04 18:50:35.325	NewBlock 24, Txs: 0, Rows: 0
+2024-10-04 18:50:41.276	Entity (00000103, 92a5470b073e50159ab4985ad03f4e5e953e1cf5) added successfully
+2024-10-04 18:50:41.276	Entity (00000203, 92a5470b073e50159ab4985ad03f4e5e953e1cf5) added successfully
+2024-10-04 18:50:47.464	NewBlock 25, Txs: 0, Rows: 0
+2024-10-04 18:50:58.502	NewBlock 26, Txs: 0, Rows: 0
+2024-10-04 18:51:10.639	NewBlock 27, Txs: 0, Rows: 0
+2024-10-04 18:51:20.580	NewBlock 28, Txs: 0, Rows: 0
+2024-10-04 18:51:38.225	NewBlock 29, Txs: 0, Rows: 0
+2024-10-04 18:51:46.607	NewTx 6285743078c4855117c932e38503f5b94de746ab8f5c970b92882fb1843f40bd, block -1, flags 00030004, import 0
+2024-10-04 18:51:46.610	NewTx 3af87efa065b21eeaf51521d2ecf3fe354ccf523e63241ae2f9b01c525e658e6, block -1, flags 00030004, import 0
+2024-10-04 18:51:50.564	NewTx f9f175fe6cd63e66130794029b4fa518bdec6e272c9df53e4780977b9ae843d6, block -1, flags 00030004, import 0
+2024-10-04 18:52:02.468	UpdateTx 6285743078, block 30, flags 00030004, import 0
+2024-10-04 18:52:02.468	UpdateTx 3af87efa06, block 30, flags 00030004, import 0
+2024-10-04 18:52:02.468	UpdateTx f9f175fe6c, block 30, flags 00030004, import 0
+2024-10-04 18:52:02.487	NewBlock 30, Txs: 3, Rows: 24
+2024-10-04 18:52:16.824	NewBlock 31, Txs: 0, Rows: 0
+2024-10-04 18:52:32.262	NewBlock 32, Txs: 0, Rows: 0
+2024-10-04 18:52:38.897	NewBlock 33, Txs: 0, Rows: 0
+2024-10-04 18:52:55.438	NewBlock 34, Txs: 0, Rows: 0
+2024-10-04 18:53:21.886	NewBlock 35, Txs: 0, Rows: 0
+2024-10-04 18:53:23.022	NewBlock 36, Txs: 0, Rows: 0
+2024-10-04 18:53:23.761	NewTx f02ac07cd83120780a786a94ca8ece3fcd22d9668a3bb238520345a139c94d98, block -1, flags 00030004, import 0
+2024-10-04 18:53:36.254	UpdateTx f02ac07cd8, block 37, flags 00030004, import 0
+2024-10-04 18:53:36.259	NewBlock 37, Txs: 1, Rows: 8
+2024-10-04 18:53:56.100	NewBlock 38, Txs: 0, Rows: 0
+2024-10-04 18:54:09.336	NewBlock 39, Txs: 0, Rows: 0
+2024-10-04 18:54:24.792	NewBlock 40, Txs: 0, Rows: 0
+2024-10-04 18:54:44.636	NewBlock 41, Txs: 0, Rows: 0
+2024-10-04 18:54:51.265	NewBlock 42, Txs: 0, Rows: 0
+2024-10-04 18:55:08.898	NewBlock 43, Txs: 0, Rows: 0
+2024-10-04 18:55:32.056	NewBlock 44, Txs: 0, Rows: 0
+2024-10-04 18:55:44.197	NewBlock 45, Txs: 0, Rows: 0
+2024-10-04 18:56:02.936	NewBlock 46, Txs: 0, Rows: 0
+2024-10-04 18:56:06.283	NewBlock 47, Txs: 0, Rows: 0
+2024-10-04 18:56:32.728	NewBlock 48, Txs: 0, Rows: 0
+2024-10-04 18:56:43.759	NewBlock 49, Txs: 0, Rows: 0
+2024-10-04 18:56:51.503	NewBlock 50, Txs: 0, Rows: 0
+2024-10-04 18:57:16.847	NewBlock 51, Txs: 0, Rows: 0
+2024-10-04 18:57:30.084	NewBlock 52, Txs: 0, Rows: 0
+2024-10-04 18:57:48.830	NewBlock 53, Txs: 0, Rows: 0
+2024-10-04 18:57:54.368	NewBlock 54, Txs: 0, Rows: 0
+2024-10-04 18:58:19.712	NewBlock 55, Txs: 0, Rows: 0
+2024-10-04 18:58:23.081	NewBlock 56, Txs: 0, Rows: 0
+2024-10-04 18:58:42.924	NewBlock 57, Txs: 0, Rows: 0
+2024-10-04 18:58:51.762	NewBlock 58, Txs: 0, Rows: 0
+2024-10-04 18:59:09.401	NewBlock 59, Txs: 0, Rows: 0
+2024-10-04 19:14:39.554	Initialized. Chain height: 59, Txs: 5
+2024-10-04 19:23:17.212	Initialized. Chain height: 59, Txs: 5
+2024-10-04 19:24:46.822	Initialized. Chain height: 59, Txs: 5

@@ -1,0 +1,100 @@
+2024-10-04 18:44:10.651	Initialized: Admin count: 0, Miner count: 0, ledger rows: 1
+2024-10-04 18:44:10.903	Grant: (00000000-d960db41-00000001-d960db41) (0-4294967295, 1728067450), In consensus: 1, Admin count: 0, Miner count: 0
+2024-10-04 18:44:10.903	Grant: (00000000-d960db41-00000002-d960db41) (0-4294967295, 1728067450), In consensus: 1, Admin count: 0, Miner count: 0
+2024-10-04 18:44:10.903	Grant: (00000000-d960db41-00000004-d960db41) (0-4294967295, 1728067450), In consensus: 1, Admin count: 0, Miner count: 0
+2024-10-04 18:44:10.903	Grant: (00000000-d960db41-00000020-d960db41) (0-4294967295, 1728067450), In consensus: 1, Admin count: 0, Miner count: 0
+2024-10-04 18:44:10.903	Grant: (00000000-d960db41-00000010-d960db41) (0-4294967295, 1728067450), In consensus: 1, Admin count: 0, Miner count: 0
+2024-10-04 18:44:10.903	Grant: (00000000-d960db41-00002000-d960db41) (0-4294967295, 1728067450), In consensus: 1, Admin count: 0, Miner count: 0
+2024-10-04 18:44:10.903	Grant: (00000000-d960db41-00000100-d960db41) (0-4294967295, 1728067450), In consensus: 1, Admin count: 0, Miner count: 1
+2024-10-04 18:44:10.903	Grant: (00000000-d960db41-00001000-d960db41) (0-4294967295, 1728067450), In consensus: 1, Admin count: 1, Miner count: 1
+2024-10-04 18:44:10.903	Grant: (819a27bf-00000000-00000001-d960db41) (0-4294967295, 0), In consensus: 1, Admin count: 1, Miner count: 1
+2024-10-04 18:44:10.903	Grant: (819a27bf-d960db41-00000008-d960db41) (0-4294967295, 0), In consensus: 1, Admin count: 1, Miner count: 1
+2024-10-04 18:44:10.903	Grant: (819a27bf-d960db41-00002000-d960db41) (0-4294967295, 0), In consensus: 1, Admin count: 1, Miner count: 1
+2024-10-04 18:44:10.903	Grant: (819a27bf-d960db41-00001000-d960db41) (0-4294967295, 0), In consensus: 1, Admin count: 1, Miner count: 1
+2024-10-04 18:44:10.911	Block commit:         0 (Hash: 41774fed, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 15
+2024-10-04 18:44:10.958	Block commit:         1 (Hash: fe97cfa1, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 17
+2024-10-04 18:44:11.011	Block commit:         2 (Hash: 9c570e43, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 19
+2024-10-04 18:44:30.845	Block commit:         3 (Hash: 26417f2c, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 21
+2024-10-04 18:44:46.284	Block commit:         4 (Hash: d1d28c0e, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 23
+2024-10-04 18:44:56.215	Block commit:         5 (Hash: 3acc05e3, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 25
+2024-10-04 18:45:07.245	Block commit:         6 (Hash: b63fe166, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 27
+2024-10-04 18:45:24.882	Block commit:         7 (Hash: fc82c3df, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 29
+2024-10-04 18:45:33.717	Block commit:         8 (Hash: 01047afc, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 31
+2024-10-04 18:45:42.550	Block commit:         9 (Hash: c78ef0cc, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 33
+2024-10-04 18:46:00.188	Block commit:        10 (Hash: df68d444, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 35
+2024-10-04 18:46:10.136	Block commit:        11 (Hash: 14c1b397, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 37
+2024-10-04 18:46:23.680	Initialized: Admin count: 1, Miner count: 1, ledger rows: 37
+2024-10-04 18:46:23.797	Block rollback:        11, Admin count: 1, Miner count: 1, Ledger Rows: 37
+2024-10-04 18:46:32.626	Block commit:        12 (Hash: db393512, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 39
+2024-10-04 18:47:11.322	Initialized: Admin count: 1, Miner count: 1, ledger rows: 39
+2024-10-04 18:47:11.429	Block rollback:        12, Admin count: 1, Miner count: 1, Ledger Rows: 39
+2024-10-04 18:47:24.658	Block commit:        13 (Hash: 1e626ee4, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 41
+2024-10-04 18:47:45.601	Block commit:        14 (Hash: ddb0722d, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 43
+2024-10-04 18:48:07.642	Block commit:        15 (Hash: b6d30b70, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 45
+2024-10-04 18:48:29.689	Block commit:        16 (Hash: 31a4cfa4, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 47
+2024-10-04 18:48:39.387	Initialized: Admin count: 1, Miner count: 1, ledger rows: 47
+2024-10-04 18:48:39.497	Block rollback:        16, Admin count: 1, Miner count: 1, Ledger Rows: 47
+2024-10-04 18:48:42.374	Initialize: Cannot open database
+2024-10-04 18:48:51.629	Block commit:        17 (Hash: a9c54702, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 49
+2024-10-04 18:49:03.763	Block commit:        18 (Hash: f198bfef, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 51
+2024-10-04 18:49:09.620	Initialize: Cannot open database
+2024-10-04 18:49:22.507	Block commit:        19 (Hash: c4a5a309, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 53
+2024-10-04 18:49:31.345	Block commit:        20 (Hash: 7cca69af, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 55
+2024-10-04 18:49:32.547	Initialize: Cannot open database
+2024-10-04 18:49:52.289	Block commit:        21 (Hash: b5e5e4c8, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 57
+2024-10-04 18:50:01.125	Block commit:        22 (Hash: 3523e28b, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 59
+2024-10-04 18:50:20.967	Block commit:        23 (Hash: eb3afa8a, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 61
+2024-10-04 18:50:35.311	Block commit:        24 (Hash: a07e3268, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 63
+2024-10-04 18:50:47.448	Block commit:        25 (Hash: f344efa3, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 65
+2024-10-04 18:50:58.486	Block commit:        26 (Hash: b84c9f0e, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 67
+2024-10-04 18:51:10.622	Block commit:        27 (Hash: 4dcd463a, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 69
+2024-10-04 18:51:20.562	Block commit:        28 (Hash: 17929807, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 71
+2024-10-04 18:51:38.208	Block commit:        29 (Hash: 2f7f008e, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 73
+2024-10-04 18:51:46.607	Grant: (00000000-953e1cf5-00000004-d960db41) (0-4294967295, 1728067906), In consensus: 1, Admin count: 1, Miner count: 1
+2024-10-04 18:51:46.610	Grant: (00000000-953e1cf5-00000004-d960db41) (0-4294967295, 1728067906), In consensus: 1, Admin count: 1, Miner count: 1
+2024-10-04 18:51:50.564	Grant: (00000000-953e1cf5-00000004-d960db41) (0-4294967295, 1728067910), In consensus: 1, Admin count: 1, Miner count: 1
+2024-10-04 18:52:02.440	Mempool copy:        29, Admin count: 1, Miner count: 1, Ledger Rows: 76
+2024-10-04 18:52:02.444	Mempool ramv:        29, Admin count: 1, Miner count: 1, Ledger Rows: 76
+2024-10-04 18:52:02.444	Mempool copy:        29, Admin count: 1, Miner count: 1, Ledger Rows: 76
+2024-10-04 18:52:02.444	Mempool clr :        29, Admin count: 1, Miner count: 1, Ledger Rows: 73
+2024-10-04 18:52:02.444	Mempool rstr:        29, Admin count: 1, Miner count: 1, Ledger Rows: 76
+2024-10-04 18:52:02.444	Mempool clr :        29, Admin count: 1, Miner count: 1, Ledger Rows: 73
+2024-10-04 18:52:02.444	Grant: (00000000-953e1cf5-00000004-d960db41) (0-4294967295, 1728067906), In consensus: 1, Admin count: 1, Miner count: 1
+2024-10-04 18:52:02.444	Grant: (00000000-953e1cf5-00000004-d960db41) (0-4294967295, 1728067906), In consensus: 1, Admin count: 1, Miner count: 1
+2024-10-04 18:52:02.444	Grant: (00000000-953e1cf5-00000004-d960db41) (0-4294967295, 1728067910), In consensus: 1, Admin count: 1, Miner count: 1
+2024-10-04 18:52:02.454	Block commit:        30 (Hash: cb983819, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 78
+2024-10-04 18:52:16.810	Block commit:        31 (Hash: 9249068e, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 80
+2024-10-04 18:52:32.248	Block commit:        32 (Hash: b03a89dd, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 82
+2024-10-04 18:52:38.882	Block commit:        33 (Hash: 63817b7e, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 84
+2024-10-04 18:52:55.420	Block commit:        34 (Hash: af7f8ca2, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 86
+2024-10-04 18:53:21.871	Block commit:        35 (Hash: 0f16182f, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 88
+2024-10-04 18:53:23.006	Block commit:        36 (Hash: df391c63, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 90
+2024-10-04 18:53:36.243	Block commit:        37 (Hash: d1993541, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 92
+2024-10-04 18:53:56.086	Block commit:        38 (Hash: 8dd098f4, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 94
+2024-10-04 18:54:09.318	Block commit:        39 (Hash: 86612266, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 96
+2024-10-04 18:54:24.759	Block commit:        40 (Hash: 044891c5, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 98
+2024-10-04 18:54:44.618	Block commit:        41 (Hash: 46b8ad6f, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 100
+2024-10-04 18:54:51.252	Block commit:        42 (Hash: 5359d548, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 102
+2024-10-04 18:55:08.887	Block commit:        43 (Hash: 122e0f14, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 104
+2024-10-04 18:55:32.025	Block commit:        44 (Hash: 2a1eb453, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 106
+2024-10-04 18:55:44.181	Block commit:        45 (Hash: 4425838b, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 108
+2024-10-04 18:56:02.922	Block commit:        46 (Hash: e3397ae4, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 110
+2024-10-04 18:56:06.269	Block commit:        47 (Hash: 8aa10890, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 112
+2024-10-04 18:56:32.715	Block commit:        48 (Hash: c36c25cf, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 114
+2024-10-04 18:56:43.747	Block commit:        49 (Hash: 79c3c5a9, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 116
+2024-10-04 18:56:51.487	Block commit:        50 (Hash: b37bc9c2, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 118
+2024-10-04 18:57:16.831	Block commit:        51 (Hash: fb5451cb, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 120
+2024-10-04 18:57:30.071	Block commit:        52 (Hash: bf21c0aa, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 122
+2024-10-04 18:57:48.811	Block commit:        53 (Hash: 01b52c8f, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 124
+2024-10-04 18:57:54.352	Block commit:        54 (Hash: ced49142, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 126
+2024-10-04 18:58:19.698	Block commit:        55 (Hash: fbae2e69, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 128
+2024-10-04 18:58:23.036	Block commit:        56 (Hash: 7b5ec2fb, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 130
+2024-10-04 18:58:42.908	Block commit:        57 (Hash: eb21cac8, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 132
+2024-10-04 18:58:51.745	Block commit:        58 (Hash: eb6967e0, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 134
+2024-10-04 18:59:09.388	Block commit:        59 (Hash: 5370e10a, Miner: d960db41), Admin count: 1, Miner count: 1, Ledger Rows: 136
+2024-10-04 19:14:39.468	Initialized: Admin count: 1, Miner count: 1, ledger rows: 136
+2024-10-04 19:14:39.607	Block rollback:        59, Admin count: 1, Miner count: 1, Ledger Rows: 136
+2024-10-04 19:23:17.148	Initialized: Admin count: 1, Miner count: 1, ledger rows: 136
+2024-10-04 19:23:17.244	Block rollback:        59, Admin count: 1, Miner count: 1, Ledger Rows: 136
+2024-10-04 19:24:46.757	Initialized: Admin count: 1, Miner count: 1, ledger rows: 136
+2024-10-04 19:24:46.861	Block rollback:        59, Admin count: 1, Miner count: 1, Ledger Rows: 136
